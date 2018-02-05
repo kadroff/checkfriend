@@ -38,7 +38,3 @@ for (var j = 0; j < 1; j++) {
     form.innerHTML += `<div><input type="radio" value=${test[j].answers[answers[i]]} name="question-${j}">${answers[i]}</div><br>`;
   }
 }
-
-document.getElementById("check").onclick = function() {
-  
-}
